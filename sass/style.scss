@@ -684,17 +684,9 @@ ul#additional_links {
     }
   }
   &.version_gradient {
-    background: linear-gradient(to bottom, $primary-color, $third-color);
-    // background: $primary-color
-    //   url(../img/hero_images/choozpainters-city-header-laptop-3.png) no-repeat
-    //   center bottom;
-    // @include background-size(88%);
+    background: linear-gradient(to bottom, $primary-color, $primary-color, #3f67bc);
     @include mobile {
-      // background: $primary-color
-      //   url(../img/hero_images/choozpainters-city-header-mobile-3.png) no-repeat
-      //   center bottom;
       height: 650px;
-      // @include background-size(100%);
     }
     .version_gradient_background_image {
       height: 100%;
