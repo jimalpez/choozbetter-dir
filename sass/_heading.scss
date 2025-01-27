@@ -1,0 +1,35 @@
+.heading_contractor-sm {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+.heading_contractor {
+  @include fontSize(32px);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.contactor_address {
+  margin-block-end: 10px;
+}
+
+.heading {
+  color: $heading-color;
+  &_secondary {
+    @include fontSize(28px);
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    @include mobile {
+      @include fontSize(24px);
+    }
+  }
+  &_listing {
+    @include fontSize(26px);
+    font-weight: 600;
+    margin-bottom: 10px;
+    @include mobile {
+      @include fontSize(22px);
+    }
+  }
+}
